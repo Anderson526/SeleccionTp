@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/paperplane.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button_start.css">
+
+    <link rel="stylesheet" href="clouds.css">
+    <link rel="stylesheet" href="path.css">
+    <link rel="stylesheet" href="return_button.css">
+ 
+
+    <!-- script -->
+    <script src="button.js"></script>
+    <!-- <script src="return.js"></script> -->
+
+    <title>PaperPlane</title>
+
+</head>
+<body>
+
+    <canvas id="canvas" width="1000" height="1080"></canvas>
+
+
+    <!-- container to button -->
+
+<div class="container">
+
+
+  <button class="start one" onclick="animation(this)" value="sh">
+
+    <div class="icon">
+
+        <img src="images/icon.png" class="plane_icon" alt="plane_icon">
+
+    </div>  
+    <span>Start</span>  
+
+</button>
+ 
+
+</div>
+
+
+<canvas id="canvas2" width="1000" height="1080"></canvas>
+
+
+<div class="container-button">
+
+
+    <button class="return one" onclick="ret(this)" value="sh">
+  
+      <div class="icon">
+  
+          <img src="images/paperplane.png" class="paperplane" alt="plane_icon">
+  
+      </div>  
+      <span>AirTravel</span>  
+  
+  </button>
+   
+  
+  </div>
+
+
+<!-- container to clouds -->
+
+
+
+    <img src="images/cloud1.png"  class="image cloud1" alt="cloud1">
+    <img src="images/cloud2.png"  class="image cloud2" alt="cloud2">
+    <img src="images/cloud3.png"  class="image cloud3" alt="cloud3">
+    <img src="images/cloud4.png"  class="image cloud4" alt="cloud4">
+
+
+
+<!-- container to left paths -->
+
+<div class="path_container_left">
+
+    <img src="images/Path 1.png"  class="path image1" alt="path">
+
+    <img src="images/Path 3.png"  class="path image3" alt="path">
+
+
+   
+
+</div>
+
+<!-- container to right paths -->
+
+<div class="path_container_right">
+
+    <img src="images/Path 2.png"  class="path image2" alt="path">
+
+    <img src="images/Path 4.png"  class="path image4" alt="path">
+
+</div>
+
+
+
+    
+</body>
+</html>

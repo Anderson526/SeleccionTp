@@ -1,0 +1,39 @@
+/* create a new section about color animation that appear in the right side to button */
+.start.one::after {
+    content: " ";
+    width:100%;
+    height:100%;
+    background: #2fb2ba;
+    position:absolute;
+    left: -500px;
+    transition: 1s case-in-out;
+  
+
+}
+
+/* establishes the position and duration of animation */
+
+.start.one:hover::after{
+   left: 0;
+    transition: 1s;
+ 
+}
+
+
+
+.start.one:hover span{
+   transition: .5s;
+    left: 20px;
+
+}
+
+
+
+.start.one span{
+    position:absolute;
+    transition: .5s case-in-out;
+    left: 40%;
+}
+
+
+

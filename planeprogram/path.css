@@ -1,0 +1,52 @@
+/* create all the paths and the specific position with position relative and fixed */
+
+.path{
+ 
+    width: 400px;
+    height: 100%;
+    opacity:1;
+   
+}
+
+
+
+
+.path.image1{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+
+
+.path.image3 {
+   
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    
+   
+
+}
+
+
+
+.path.image4{
+    width: 80%;
+    position: fixed;
+    left: 700px;
+    top: 0;
+    z-index: 2;
+}
+
+
+.path.image2{
+    width: 80%
+    position: fixed;
+    left: 700px;
+    top: 0;
+    z-index: 2;
+}
+
+

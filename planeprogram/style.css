@@ -1,0 +1,97 @@
+
+/* delete predeterminate stats */
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+/* set backgroudcolor */
+
+}
+body{
+    background-color:#99e5ff;
+
+}
+
+/* create a new container for a button where is posisionate in the right side */
+
+.container{
+    position: relative;
+    float:right;
+    right: 50px;
+    top: 400px;
+    z-index: 30;
+}
+
+/* select the class to button and adjust the basic preset like fontsize,color,cursor and the overflow that allow specific content that protrudes from the container */
+
+.start{
+    display: inline-flex;
+    width: 400px;
+    height: 100px;
+    background-color: #cff2f4;
+    font-size: 20px;
+    align-items:center;
+    justify-content: center;
+    color: #ffff;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+    
+    border:none;
+    transition: .5s ease;
+    border-radius: 15px;
+    border: solid 1px black;
+    position:relative;
+    overflow: hidden;
+
+}
+
+/* preset span or text to button  */
+
+.start span{
+    position:relative;
+    z-index: 100;
+    transition: .5s ease;
+ 
+}
+
+/* adjust the dimensions to img or icon in this specific case */
+
+
+   img{
+width: 20px;
+height: 20px;
+display: flex;
+align-items: center;
+position: absolute;
+z-index: 9;
+left: -40px;
+opacity: 0;
+
+}
+
+/* establishes the fuction hover to icon and create a little animation in it is button */
+
+.start.one:hover img{
+    transition: .5s ;
+    left: calc(100% - 50px);
+    opacity: 1;
+}
+
+
+
+
+
+#canvas{
+
+    position: fixed;
+    z-index: 101;
+}
+
+#canvas2{
+
+    position: fixed;
+    z-index: 100;
+}

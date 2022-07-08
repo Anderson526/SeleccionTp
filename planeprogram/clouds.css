@@ -1,0 +1,33 @@
+/* create all the clouds and the specific position with position relative and fixed */
+.image{
+    width: 400px;
+    height: 250px;
+    opacity:1;
+}
+
+.image.cloud1{
+    position: relative;
+    float: right;
+    bottom: 0px;
+}
+
+.image.cloud2{
+
+    position: relative;
+    top: 100px;
+    z-index: 5;
+}
+
+.image.cloud3{
+    position: relative;
+    float: right;
+    top: 0;
+}
+
+.image.cloud4{
+   
+    position: relative;
+    top:100px;
+    z-index: 4;
+}
+
